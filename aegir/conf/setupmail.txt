@@ -79,9 +79,9 @@ You can see it in action here: http://bit.ly/atriumreader
 Another great Open Atrium feature is the default
 Apache Solr Search integration. You can use it with any
 remotely hosted Solr service, including our own hosted
-version - learn more here:
+version.
 
- http://omega8.cc/apache-solr-search-order
+ 
 
 
 ----------------------------------------
@@ -190,13 +190,6 @@ to clone your custom site with a working address in the form of:
 in order to test everything before changing your DNS to the
 new A or CNAME address.
 
-PLEASE NOTE: Having a custom platform created from an
-imported/uploaded site is an add-on service, paid separately or
-free-of-charge with a yearly (hosted) subscription. Please
-find more details on our website:
-
- http://omega8.cc/site-import
- http://omega8.cc/hosted-aegir
 
 
 === IMPORTANT DEVELOPMENT SITE INFORMATION
@@ -241,9 +234,11 @@ for every site you wish to accelerate.
 
 
 
-Questions? Comments? Please contact us:
+More info at:
+http://razem.obin.org/razem
 
- http://omega8.cc/contact
 
-Thank you,
-Omega8.cc Team
+
+Orginal authorship of install script:
+http://omega8.cc/
+
