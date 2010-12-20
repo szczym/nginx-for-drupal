@@ -363,7 +363,7 @@ fi
 ###--------------------###
 msg "INFO: Testing Gitorious and GitHub servers availability, please wait..."
 sleep 3
-_GITORIOUS_WORKS=YES
+_GITORIOUS_WORKS=NO
 _GITHUB_WORKS=YES
 if ! netcat -w 8 -z gitorious.org 9418 ; then
   _GITORIOUS_WORKS="NO"
