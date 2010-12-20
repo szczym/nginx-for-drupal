@@ -337,6 +337,9 @@ if [ ! -d "$_CORE/o_contrib" ] ; then
   wget -q -U iCab http://ftp.drupal.org/files/projects/session443-6.x-1.x-dev.tar.gz
   wget -q -U iCab http://ftp.drupal.org/files/projects/varnish-6.x-1.x-dev.tar.gz
   wget -q -U iCab http://ftp.drupal.org/files/projects/site_verify-6.x-1.x-dev.tar.gz
+  wget -q -U iCab http://ftp.drupal.org/files/projects/piwik-6.x-1.1.tar.gz
+  wget -q -U iCab http://ftp.drupal.org/files/projects/admin_menu-6.x-1.6.tar.gz
+  wget -q -U iCab http://ftp.drupal.org/files/projects/backup_migrate_files-6.x-1.x-dev.tar.gz
   tar -xzf cache.tar.gz &> /dev/null
   tar -xzf boost-6.x-1.x-dev.tar.gz &> /dev/null
   tar -xzf dbtuner-6.x-1.x-dev.tar.gz &> /dev/null
@@ -356,6 +359,9 @@ if [ ! -d "$_CORE/o_contrib" ] ; then
   tar -xzf session443-6.x-1.x-dev.tar.gz &> /dev/null
   tar -xzf varnish-6.x-1.x-dev.tar.gz &> /dev/null
   tar -xzf site_verify-6.x-1.x-dev.tar.gz &> /dev/null
+  tar -xzf piwik-6.x-1.1.tar.gz &> /dev/null
+  tar -xzf admin_menu-6.x-1.6.tar.gz &> /dev/null
+  tar -xzf backup_migrate_files-6.x-1.x-dev.tar.gz &> /dev/null
   rm -f *.tar.gz
 fi
 if [ ! -d "$_CORE/o_contrib_atrium" ] ; then
