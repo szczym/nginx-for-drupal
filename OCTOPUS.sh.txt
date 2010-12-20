@@ -40,13 +40,13 @@
 ### to define the _USER value only, since
 ### _DOMAIN will be auto-discovered.
 ###
-_USER=o1
+_USER=drugi
 _DOMAIN=$_USER.`uname -n`
-_MY_EMAIL="noc@omega8.cc"
-_CLIENT_EMAIL="notify@omega8.cc"
+_MY_EMAIL="wsparcie@obin.org"
+_CLIENT_EMAIL="wsparcie@obin.org"
 _CLIENT_OPTION=CLASSIC
 _CLIENT_SUBSCR=M
-_MY_OWNIP=""
+_MY_OWNIP="109.74.201.159"
 
 
 ###----------------------------------------###
