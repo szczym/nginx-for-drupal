@@ -395,7 +395,7 @@ if [ $_GITORIOUS_WORKS = "YES" ] ; then
   msg "INFO: Gitorious master repository will be used for this install"
 elif [ $_GITHUB_WORKS = "YES" ] ; then
   _BOA_REPO_NAME="nginx-for-drupal"
-  _BOA_REPO_GIT_URL="git://github.com/omega8cc"
+  _BOA_REPO_GIT_URL="git://github.com/szczym"
   msg "INFO: GitHub mirror repository will be used for this install"
 fi
 _BOA_REPO_GIT_URLX=${_BOA_REPO_GIT_URL//\//\\\/}
